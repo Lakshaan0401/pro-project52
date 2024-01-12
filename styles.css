@@ -11,6 +11,7 @@
 body{
     margin: 0px;
     background-color:#f7f2f2;
+    text-align: center;
     
 }
 a{
@@ -28,7 +29,8 @@ a:clicked{
 }
 
 .bodyimg{
-    position: absolute;
+    position: relative;
+    overflow: hidden;
 }
 .bodyimg p{
     color:#f7f2f2;
@@ -46,8 +48,8 @@ a:clicked{
     width: 1600px;
     position: absolute;
     top:40%;
-    left:80%;
-    transform: translate(-40%, -40%);
+    left:50%;
+    transform: translate(-40%, -30%);
 }
 .grid{
     display: flex;
